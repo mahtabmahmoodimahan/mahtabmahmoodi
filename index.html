@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Todo list with object </title>
+<style>
+div.scroll {
+width:220px;
+height: 220px;
+overflow: scroll;
+background-color: lightblue;
+ margin-left: 250px;
+ background-color: lightblue
+}
+input{
+border: 2px solid black;
+  margin-left: 250px;
+  margin-bottom: 25px;
+  background-color: lightblue
+  border: 1px solid black;
+  background-color: lightblue;
+  padding: 100px , 200px , 50px,800px ;
+ 
+  }
+  button.style{
+   margin-left: 250px;
+  margin-bottom: 25px;
+  
+  }
+  </style>
+</head>
+<body>
+<input type="text" id="input" placeholder="enter to do list">
+	<button onclick="add()">Add</button>
+	<div id="container"class="scroll"></div>
+	<div id="ltodos" > </div>
+	<button class="style" onclick="Complist()">complete tasks</button> </br>
+	<button  class="style" onclick="deletelist()">deletedtasks</button>
+<script src="app.js"></script>
+</body>
+</html>
